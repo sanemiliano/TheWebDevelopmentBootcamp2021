@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <!--file:///C:/tacos?username=jamon-->
+    <form action="/tacos">
+        <p>
+            <!--Here we are using the name attribute so we can submit this info witha name related to it-->
+            <label for="username">Username</label>
+            <input type="text" placeholder="This is a placeholder" name="username" id="username">
+        </p>
+        <p>
+            <input type="password">
+        </p>
+        <p>
+            <input type="color">
+        </p>
+        <p>
+            <!-- Here we can see how to associate a label and an input-->
+            <label for="cheese">Select your option</label>
+            <input type="checkbox" id="cheese">
+        </p>
+        <p>
+            <!-- Here we can see how to associate a label and an input-->
+            <label>
+                Select your option
+                <input type="checkbox">
+            </label>
+        </p>
+        <p>
+            <label for="yes">This button submits</label>
+            <button id="yes">Submit</button>
+        </p>
+        <p>
+            <label for="no">This button DOESN'T submit</label>
+            <button id="no" type="button">Fake Submit</button>
+        </p>
+    </form>
+</body>
+</html>
