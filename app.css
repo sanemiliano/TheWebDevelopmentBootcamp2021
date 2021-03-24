@@ -1,11 +1,28 @@
 h2{
     color: rgb(100,120,0);
+    text-align: center;
+    width: 80%;
+    font-weight: 200;
+    text-decoration: blue wavy underline;
 }
 button{
     color:red;
     background-color: royalblue;
+    letter-spacing: 15px;
 }
 p{
     color:#0f5679;
-    background-color: skyblue;
+    line-height: 2;
+    font-family: monospace;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+#jam{
+    background-color: aqua;
+}
+.jes{
+    background-color:aqua;
 }
