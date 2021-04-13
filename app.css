@@ -5,24 +5,51 @@ h2{
     font-weight: 200;
     text-decoration: blue wavy underline;
 }
+/*this is a normal and regular selector*/
 button{
     color:red;
     background-color: royalblue;
     letter-spacing: 15px;
 }
-p{
+
+/*this is a multiple selector, lets you select with several criteria, it a logical OR*/
+a , p{
     color:#0f5679;
     line-height: 2;
     font-family: monospace;
     font-size: 15px;
 }
-a {
-    text-decoration: none;
-    color: red;
-}
+/*this is the id selector, meant for a specific element*/
 #jam{
     background-color: aqua;
 }
+/*this is the class selector meant for several elements with this class*/
 .jes{
     background-color:aqua;
 }
+/* this is the adjacent selector*/
+h2 + button {
+    background-color: green;
+}
+/*This is the descendant selector, meant for every child of the first element*/
+footer a {
+    color: red;
+}
+/* thie is the direct selector */
+/*this is meant for the childs one level down*/
+footer > a {
+    color: green;
+}
+/*this is a attribute selector*/
+input[type="text"]{
+    width: 300px;
+}
+/*this is a pseudoclass*/
+a:hover{
+    color:green;
+}
+/*This is a pseudoelement*/
+p::first-letter{
+    font-size:50px;
+}
+
